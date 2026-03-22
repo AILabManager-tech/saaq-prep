@@ -262,3 +262,59 @@ saaq-prep/
 ## Licence
 
 Projet communautaire gratuit — Mark Systems, Québec.
+
+---
+
+# SAAQ Prep B++ — Quebec Driving Test Preparation
+
+Free tool to prepare for the SAAQ Class 5 theoretical driving exam in Quebec.
+
+> Built by [Mark Systems](https://github.com/AILabManager-tech/mark-systems).
+
+## Features
+
+- 250+ questions covering all 12 exam categories
+- 5 difficulty levels (easy to expert)
+- Spaced repetition system (SRS)
+- Realistic exam simulation (30 questions / 60 minutes)
+- Initial diagnostic for personalized study plan
+- Confidence gauge to detect overconfidence
+- Visual intersection scenarios
+- PWA — installable on mobile, works offline
+- Zero ads. Zero fees. 100% community.
+
+## Tech Stack
+
+| Layer | Technology |
+|-------|------------|
+| Framework | React + Vite |
+| Mobile | Capacitor (Android / iOS) |
+| PWA | Service Worker, offline-first |
+| Deployment | Vercel |
+
+## Getting Started
+
+```bash
+cd saaq-prep
+npm install
+npm run dev    # http://localhost:5173
+```
+
+## Deployment
+
+Hosted on Vercel (free tier). PWA installable on any device.
+
+URL: [saaq-prep.vercel.app](https://saaq-prep.vercel.app)
+
+## Cost
+
+| Item | Cost | Frequency |
+|------|------|-----------|
+| Vercel hosting | $0 | — |
+| Domain .ca (optional) | ~$15/yr | Annual |
+| Google Play Developer | $25 USD | One-time |
+| Apple Developer | $99 USD | Annual |
+
+## License
+
+Free community project — Mark Systems, Quebec.
